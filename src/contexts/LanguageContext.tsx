@@ -311,13 +311,11 @@ const _baseTranslations: Record<string, any> = {
       otpResendFailed: "Kodni qayta yuborishda xatolik",
       codeSent: "Tasdiqlash kodi yuborildi",
       loginRequired: "Sevimlilar qo'shish uchun tizimga kiring",
-      password: "Parol",
-      forgotPassword: "Parolni unutdingizmi?",
       resetPassword: "Parolni tiklash",
       sendCode: "Kod yuborish",
       enterCodeSentToPhone: "Telefon raqamingizga yuborilgan kodni kiriting",
       newPassword: "Yangi parol",
-      confirmPassword: "Parolni tasdiqlash",
+
       smsSentWithCode: "Telefoningizga tasdiqlash kodi yuborildi.",
       passwordUpdatedSuccessfully: "Parol muvaffaqiyatli yangilandi.",
       passwordMinLength: "Parol kamida 6 ta belgidan iborat bo'lishi kerak",
@@ -325,7 +323,7 @@ const _baseTranslations: Record<string, any> = {
       verifyAndReset: "Tasdiqlash va yangilash",
       enterNewPassword: "Yangi parolni kiriting",
       failedToSendCode: "Tasdiqlash kodi yuborishda xatolik",
-      confirmPasswordPlaceholder: "Parolni qayta kiriting",
+
       loginToBook: "Bronni tugallash uchun tizimga kiring",
       acceptTermsPrefix: "Men",
       acceptTermsLink: "Foydalanish shartlari",
@@ -728,8 +726,7 @@ const _baseTranslations: Record<string, any> = {
         "Oldingi tanlovlaringiz bilan buyurtma sahifasi ochilmoqda...",
       maxImagesError:
         "Maksimal {{max}} ta rasm. Yangisini qo'shish uchun birini o'chiring.",
-      invalidFileFormat:
-        "{{name}} yaroqsiz format. JPG yoki PNG ishlatilsin.",
+
       photoRemoved: "Rasm o'chirildi",
       loggedOut: "Tizimdan chiqdingiz",
       timeSlotAdded: "Yangi vaqt oralig'i qo'shildi",
@@ -856,7 +853,7 @@ const _baseTranslations: Record<string, any> = {
       expired: "Muddati tugagan",
       none: "Yo'q",
       promoPeriod: "Aksiya davri",
-      currentPlan: "Joriy reja",
+
       expiredWarning: "Obuna muddati tugagan",
       renewNowMessage: "Yana ko'rinish uchun obunani yangilang.",
       renewNow: "Obunani hozir yangilash",
@@ -977,22 +974,7 @@ const _baseTranslations: Record<string, any> = {
       replaceDescription: "Bu barcha mavjud vaqt oralig'larini yangilari bilan almashtiradi. Bu amalni qaytarib bo'lmaydi.",
       replace: "Almashtirish",
     },
-    months: {
-      short: [
-        "Yan",
-        "Fev",
-        "Mar",
-        "Apr",
-        "May",
-        "Iyun",
-        "Iyul",
-        "Avg",
-        "Sen",
-        "Okt",
-        "Noy",
-        "Dek",
-      ],
-    },
+
     servicesManager: {
       title: "Xizmatlar",
       description:
@@ -1302,13 +1284,11 @@ const _baseTranslations: Record<string, any> = {
       otpResendFailed: "Не удалось отправить код",
       codeSent: "Код подтверждения отправлен",
       loginRequired: "Войдите, чтобы добавить в избранное",
-      password: "Пароль",
-      forgotPassword: "Забыли пароль?",
       resetPassword: "Восстановление пароля",
       sendCode: "Отправить код",
       enterCodeSentToPhone: "Введите код, отправленный на ваш телефон",
       newPassword: "Новый пароль",
-      confirmPassword: "Подтвердите пароль",
+
       smsSentWithCode: "Мы отправили SMS с кодом подтверждения.",
       passwordUpdatedSuccessfully: "Пароль успешно изменён.",
       passwordMinLength: "Пароль должен содержать минимум 6 символов",
@@ -1316,7 +1296,7 @@ const _baseTranslations: Record<string, any> = {
       verifyAndReset: "Проверить и изменить",
       enterNewPassword: "Введите новый пароль",
       failedToSendCode: "Не удалось отправить код подтверждения",
-      confirmPasswordPlaceholder: "Введите пароль повторно",
+
       loginToBook: "Пожалуйста, войдите, чтобы завершить бронирование",
       acceptTermsPrefix: "Я согласен(на) с",
       acceptTermsLink: "Условиями использования",
@@ -1716,8 +1696,7 @@ const _baseTranslations: Record<string, any> = {
         "Открытие страницы ��аписи с вашими предыдущими выборами...",
       maxImagesError:
         "Максимум {{max}} изображений. Удалите одно, чтобы добавить другое.",
-      invalidFileFormat:
-        "{{name}} недопустимый формат. Используйте JPG или PNG.",
+
       photoRemoved: "Фото удалено",
       loggedOut: "Вы вышли из системы",
       timeSlotAdded: "Добавлен новый временной интервал",
@@ -1838,7 +1817,7 @@ const _baseTranslations: Record<string, any> = {
       expired: "Истекла",
       none: "Нет",
       promoPeriod: "Промо период",
-      currentPlan: "Текущий план",
+
       expiredWarning: "Срок подписки истёк",
       renewNowMessage: "Чтобы снова быть видимым, продлите подписку.",
       renewNow: "Продлить подписку",
@@ -1959,22 +1938,7 @@ const _baseTranslations: Record<string, any> = {
       replaceDescription: "Это заменит все существующие временные слоты новыми. Это действие нельзя отменить.",
       replace: "Заменить",
     },
-    months: {
-      short: [
-        "Янв",
-        "Фев",
-        "Мар",
-        "Апр",
-        "Май",
-        "Июн",
-        "Июл",
-        "Авг",
-        "Сен",
-        "Окт",
-        "Ноя",
-        "Дек",
-      ],
-    },
+
     servicesManager: {
       title: "Услуги",
       description:
@@ -2289,13 +2253,11 @@ const _baseTranslations: Record<string, any> = {
       otpResendFailed: "Failed to resend code",
       codeSent: "Verification code sent",
       loginRequired: "Please login to add favorites",
-      password: "Password",
-      forgotPassword: "Forgot password?",
       resetPassword: "Reset Password",
       sendCode: "Send code",
       enterCodeSentToPhone: "Enter the code sent to your phone",
       newPassword: "New password",
-      confirmPassword: "Confirm password",
+
       smsSentWithCode: "We've sent an SMS with a verification code.",
       passwordUpdatedSuccessfully: "Password updated successfully.",
       passwordMinLength: "Password must be at least 6 characters",
@@ -2303,7 +2265,7 @@ const _baseTranslations: Record<string, any> = {
       verifyAndReset: "Verify and reset",
       enterNewPassword: "Enter new password",
       failedToSendCode: "Failed to send verification code",
-      confirmPasswordPlaceholder: "Re-enter password",
+
       loginToBook: "Please login to complete your booking",
       acceptTermsPrefix: "I agree to the",
       acceptTermsLink: "Terms & Conditions",
@@ -2692,8 +2654,7 @@ const _baseTranslations: Record<string, any> = {
         "Opening booking page with your previous selections...",
       maxImagesError:
         "Maximum {{max}} images. Remove one to add another.",
-      invalidFileFormat:
-        "{{name}} is not a valid format. Use JPG or PNG.",
+
       photoRemoved: "Photo removed",
       loggedOut: "You have been logged out",
       timeSlotAdded: "New time slot added",
